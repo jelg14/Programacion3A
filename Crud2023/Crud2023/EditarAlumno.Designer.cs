@@ -40,7 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtPrimerNombre = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtCarne = new System.Windows.Forms.TextBox();
+            this.txtCarnet = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -146,12 +146,12 @@
             this.label2.TabIndex = 17;
             this.label2.Text = "Primer Nombre";
             // 
-            // txtCarne
+            // txtCarnet
             // 
-            this.txtCarne.Location = new System.Drawing.Point(69, 34);
-            this.txtCarne.Name = "txtCarne";
-            this.txtCarne.Size = new System.Drawing.Size(142, 20);
-            this.txtCarne.TabIndex = 16;
+            this.txtCarnet.Location = new System.Drawing.Point(69, 34);
+            this.txtCarnet.Name = "txtCarnet";
+            this.txtCarnet.Size = new System.Drawing.Size(142, 20);
+            this.txtCarnet.TabIndex = 16;
             // 
             // label1
             // 
@@ -231,7 +231,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtPrimerNombre);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtCarne);
+            this.Controls.Add(this.txtCarnet);
             this.Controls.Add(this.label1);
             this.Name = "EditarAlumno";
             this.Text = "EditarAlumno";
@@ -255,7 +255,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtPrimerNombre;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtCarne;
+        private System.Windows.Forms.TextBox txtCarnet;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button button1;

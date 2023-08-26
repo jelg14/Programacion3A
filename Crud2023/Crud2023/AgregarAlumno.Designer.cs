@@ -60,6 +60,7 @@
             this.txtCarne.Name = "txtCarne";
             this.txtCarne.Size = new System.Drawing.Size(114, 20);
             this.txtCarne.TabIndex = 1;
+            this.txtCarne.TextChanged += new System.EventHandler(this.txtCarne_TextChanged);
             // 
             // txtPrimerNombre
             // 
@@ -168,6 +169,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "guardar Alumno";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // AgregarAlumno
             // 
