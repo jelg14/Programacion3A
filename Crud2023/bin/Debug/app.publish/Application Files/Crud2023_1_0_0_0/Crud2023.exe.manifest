@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Crud2023.exe" version="1.0.0.0" publicKeyToken="e91ee73f1268cd25" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Crud2023" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Crud2023.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Crud2023.exe" size="25616">
+      <assemblyIdentity name="Crud2023" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>97laRGNWA6gjEnBQa+H5iqpOrWRL8HvB/uKkIG2Rdjc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Crud2023.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-C8E8KOB\PCUdeO1903_20" issuerKeyHash="f0d3bcbeee4bde9927ccae5a6407ad241be9ff58" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3T24JB3PqmK4hh+yg1vf4uVVVs1S+H7T6Pmr2IHRLew=</DigestValue></Reference></SignedInfo><SignatureValue>ov9KCFL7wdfa24eJ8bf7bWcpsNxQT4TMhNf9ChzVcn+cd4MmF9lKsmt0/0Rt4//S8QH/PJces3wd0BJf2T3pfX2XTr5x2TkVk7WIuAbFe7fB1Nb5nQg+nVKPrP72N87xE3CvlV+fQtLpztNXhWB1mQQu3GkUZSuv4IlnpdKpI7g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vsHCFt4iwFDBOin4/sWMoQxvTXNOBIeQWEZ8Ff8oMiRHgwFF3eV3BFbT7PILAXQ0+ELK01vcQ/IRJ6sqKsh+GEf+GU7q3xVbXXOSebhtRsOOgFRUbfpsY5FaCvTzGchIQnPZCNDtqZzGZjnY35PRoYgUIeS2WmEcurt3erXAjEk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ec2dd181d8abf9e8d37ef852cd5655e5e2df5b83b21f86b862aacf1d24b83ddd" Description="" Url=""><as:assemblyIdentity name="Crud2023.exe" version="1.0.0.0" publicKeyToken="e91ee73f1268cd25" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-C8E8KOB\PCUdeO1903_20</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>052oSBcu8ohqmNJqUVws+j92lEKPY8hp/Kz5DrOxeNk=</DigestValue></Reference></SignedInfo><SignatureValue>cUkvxOu+2eJZjx+aDiuj0R9ClQacs+LTrdg7uEpVGA0Se4PHfsH/qMfPaxgRKpNvsXXXbRRw+Jh/vB/tsSnu6G9uXuL7e/XX/+QfJdQlGnUr2orZMfwbdmRGGrGH7I57hqmpUxlJUiVAfL/gsNiajoTvHAWjw4GlurVwXFoFiwg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vsHCFt4iwFDBOin4/sWMoQxvTXNOBIeQWEZ8Ff8oMiRHgwFF3eV3BFbT7PILAXQ0+ELK01vcQ/IRJ6sqKsh+GEf+GU7q3xVbXXOSebhtRsOOgFRUbfpsY5FaCvTzGchIQnPZCNDtqZzGZjnY35PRoYgUIeS2WmEcurt3erXAjEk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQOKC5YFymNrZBY6jo20GL9jANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoARABFAFMASwBUAE8AUAAtAEMAOABFADgASwBPAEIAXABQAEMAVQBkAGUATwAxADkAMAAzAF8AMgAwMB4XDTIzMDkwMjIwMDQ1NVoXDTI0MDkwMjAyMDQ1NVowRTFDMEEGA1UEAx46AEQARQBTAEsAVABPAFAALQBDADgARQA4AEsATwBCAFwAUABDAFUAZABlAE8AMQA5ADAAMwBfADIAMDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvsHCFt4iwFDBOin4/sWMoQxvTXNOBIeQWEZ8Ff8oMiRHgwFF3eV3BFbT7PILAXQ0+ELK01vcQ/IRJ6sqKsh+GEf+GU7q3xVbXXOSebhtRsOOgFRUbfpsY5FaCvTzGchIQnPZCNDtqZzGZjnY35PRoYgUIeS2WmEcurt3erXAjEkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQATY0ZwemBFeGAVAuS83b3eUm6LwiON117xF6eppMxVfWOAB21d8IbQ6GdOlnpsVTNrdkhIdI8VReptLxSsKKlzKOu0GxbiHX87EvqIGWSWTEpLCIt97XVPZ9zYo1z/urs1/oj2zfZ87f3FcxCfBkoOPJsv1bUsB1I/rZC2yRrVdg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

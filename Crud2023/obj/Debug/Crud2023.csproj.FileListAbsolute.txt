@@ -1,0 +1,16 @@
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\bin\Debug\Crud2023.exe.config
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\bin\Debug\Crud2023.exe
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\bin\Debug\Crud2023.pdb
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\obj\Debug\Crud2023.csprojResolveAssemblyReference.cache
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\obj\Debug\Crud2023.AgregarAlumno.resources
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\obj\Debug\Crud2023.BuscarAlumno.resources
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\obj\Debug\Crud2023.EditarAlumno.resources
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\obj\Debug\Crud2023.Form1.resources
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\obj\Debug\Crud2023.Properties.Resources.resources
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\obj\Debug\Crud2023.csproj.GenerateResource.Cache
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\obj\Debug\Crud2023.exe
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\obj\Debug\Crud2023.pdb
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\bin\Debug\Crud2023.exe.manifest
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\bin\Debug\Crud2023.application
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\obj\Debug\Crud2023.exe.manifest
+C:\Users\Estudiante\Documents\programacion3A\Crud2023\Crud2023\obj\Debug\Crud2023.application
